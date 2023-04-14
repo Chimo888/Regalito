@@ -14,7 +14,7 @@ public class Oscar : MonoBehaviour
 
             GetComponent<SpriteRenderer>().enabled = true;
             GetComponent<Animator>().enabled = true;
-            //GetComponent<AudioSource>().enabled = true;
+            GetComponent<AudioSource>().enabled = true;
 
 
             Destroy(gameObject, 5.0f);
